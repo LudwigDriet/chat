@@ -2,6 +2,9 @@ import React, {useState} from 'react';
 
 import './App.css';
 import Chat from './componentes/Chat';
+import { Route } from 'react-router-dom';
+
+import Formulario from './componentes/Formulario';
 
 
 function App() {
@@ -18,7 +21,14 @@ function App() {
 
   return (
     <div >
-      <div className="App">
+      <div className="contenedor">
+      {/* <Route path="/formulario" component={Formulario} /> */}
+      <Formulario/>
+
+      </div>
+      {/* <div className="App">
+        
+      
       {
         !registrado &&
 
@@ -33,7 +43,7 @@ function App() {
       {
         registrado &&
         <Chat nombre={nombre}/>
-      }
+      } */}
 
     </div>
   );
