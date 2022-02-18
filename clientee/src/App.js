@@ -22,7 +22,7 @@ function App() {
   return (
     <div >
       <div className="contenedor">
-      {/* <Route path="/formulario" component={Formulario} /> */}
+      
       <Formulario/>
 
       </div>
