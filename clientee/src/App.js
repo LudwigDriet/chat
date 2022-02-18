@@ -26,24 +26,6 @@ function App() {
       <Formulario/>
 
       </div>
-      {/* <div className="App">
-        
-      
-      {
-        !registrado &&
-
-    <form onSubmit={registrar}> 
-      <label htmlFor=''>Introduzca su nombre </label>
-      <input value={nombre} onChange={ e => setNombre(e.target.value)}/>
-      <button>Ir al chat</button>
-    </form>
-
-      }
-    </div>
-      {
-        registrado &&
-        <Chat nombre={nombre}/>
-      } */}
 
     </div>
   );
