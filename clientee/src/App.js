@@ -21,12 +21,7 @@ function App() {
 
   return (
     <div >
-      <div className="contenedor">
-      
-      <Formulario/>
-
-      </div>
-
+      <div className="contenedor"><Formulario/></div>
     </div>
   );
 }
