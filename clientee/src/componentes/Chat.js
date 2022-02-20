@@ -45,10 +45,8 @@ const Chat = ({nombre}) =>{
                  }
                <div ref={divRef}></div>
             </div>
-            
-            <form onSubmit={submit} >
-                
-                <input name="" id="" value={mensaje} onChange={e => setMensaje(e.target.value)} placeholder="Escriba su mensaje "></input>
+             <form onSubmit={submit} >
+                 <input name="" id="" value={mensaje} onChange={e => setMensaje(e.target.value)} placeholder="Escriba su mensaje "></input>
                 <button>Enviar</button>
             </form>
            
