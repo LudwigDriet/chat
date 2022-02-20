@@ -41,7 +41,7 @@ const Chat = ({nombre}) =>{
         <div className='caja-chat'>
             <div className='chat'>
                 {
-                    mensajes.map((e,i)=> <div key={i}>{ !e.nombre? e.mensaje : e.nombre.charAt(0).toUpperCase() + e.nombre.slice(1) + ' : ' + e.mensaje}</div>)
+                 mensajes.map((e,i)=> <div key={i}>{ !e.nombre? e.mensaje : e.nombre.charAt(0).toUpperCase() + e.nombre.slice(1) + ' : ' + e.mensaje}</div>)
                  }
                <div ref={divRef}></div>
             </div>
