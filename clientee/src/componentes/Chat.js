@@ -10,7 +10,7 @@ const Chat = ({nombre}) =>{
 
     useEffect(() => {
 
-       socket.emit('conectado',nombre)
+        socket.emit('conectado',nombre)
 
     }, [nombre])
 
@@ -32,10 +32,8 @@ const Chat = ({nombre}) =>{
     const submit = (e) => {
         e.preventDefault();
         socket.emit('mensaje',nombre, mensaje)
-
         setMensaje('')
-
-    }
+        }
 
     return (
         <div className='caja-chat'>

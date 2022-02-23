@@ -1,11 +1,8 @@
 import React, {useState} from 'react';
-
 import './App.css';
 import Chat from './componentes/Chat';
 import { Route } from 'react-router-dom';
-
 import Formulario from './componentes/Formulario';
-
 
 function App() {
 
